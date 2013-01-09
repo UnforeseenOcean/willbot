@@ -3,6 +3,8 @@
 module.exports = (robot) ->
   responses = [
     [/intense/i, 'camping is intense']
+  , [/designs? branch/i, '☆ º ♥ `•.¸.•´ ♥ º ☆.¸¸.•´¯`♥ designs branch ♥`¯´•.¸¸.☆ º ♥ ´•.¸.•` ♥ º ☆']
+
   , [/canada/i, 'http://sae.tweek.us/static/images/emoticons/emot-canada.gif']
   , [/australia/i, 'http://sae.tweek.us/static/images/emoticons/emot-australia.gif']
   , [/why do.+\?/i, 'http://sae.tweek.us/static/images/emoticons/emot-iiam.gif']

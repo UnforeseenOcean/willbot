@@ -4,10 +4,11 @@ module.exports = (robot) ->
   responses = [
     [/intense/i, 'camping is intense']
   , [/designs? branch/i, '☆ º ♥ `•.¸.•´ ♥ º ☆.¸¸.•´¯`♥ designs branch ♥`¯´•.¸¸.☆ º ♥ ´•.¸.•` ♥ º ☆']
+  , [/mull (it )over/i, "That's Ed's job"]
 
   , [/canada/i, 'http://sae.tweek.us/static/images/emoticons/emot-canada.gif']
   , [/australia/i, 'http://sae.tweek.us/static/images/emoticons/emot-australia.gif']
-  , [/why do.+\?/i, 'http://sae.tweek.us/static/images/emoticons/emot-iiam.gif']
+  , [/wh(y|at) do.+\?/i, 'http://sae.tweek.us/static/images/emoticons/emot-iiam.gif']
   , [/wh?oooo+/i, 'http://sae.tweek.us/static/images/emoticons/emot-toot.gif']
   ]
 
